@@ -23,6 +23,8 @@ libmm-vdec-def += -Wno-parentheses
 libmm-vdec-def += -D_ANDROID_ICS_
 libmm-vdec-def += -D_MSM8974_
 libmm-vdec-def += -DPROCESS_EXTRADATA_IN_OUTPUT_PORT
+libmm-vdec-def += -Wno-constant-logical-operand
+libmm-vdec-def += -Wno-implicit-fallthrough
 libmm-vdec-def += -DMAX_RES_1080P
 libmm-vdec-def += -DMAX_RES_1080P_EBI
 ifeq ($(TARGET_KERNEL_VERSION), 4.9)
